@@ -18,10 +18,6 @@
       "url": "http://pear.php.net"
     },
     {
-      "type": "pear",
-      "url": "http://bearsaturday.github.io/pear"
-    },
-    {
       "type": "vcs",
       "url": "https://github.com/satomif/Panda"
     }
