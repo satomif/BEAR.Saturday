@@ -20,12 +20,16 @@
     {
       "type": "pear",
       "url": "http://bearsaturday.github.io/pear"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/satomif/Panda"
     }
   ],
   "require": {
     "php": ">=5.4",
     "smarty/smarty": "2.*",
-    "pear-bearsaturday.github.io/pear/Panda": "@dev",
+    "bearsuturday/panda": "@dev",
     "pear-pear.php.net/Cache_Lite": "@stable",
     "pear-pear.php.net/HTML_QuickForm": "@stable",
     "pear-pear.php.net/HTML_QuickForm_Renderer_Tableless": "@stable",
