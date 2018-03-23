@@ -12,8 +12,47 @@
       "email": "akihito.koriyama@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "pear",
+      "url": "http://pear.php.net"
+    },
+    {
+      "type": "pear",
+      "url": "http://bearsaturday.github.io/pear"
+    }
+  ],
   "require": {
-    "smarty/smarty": "2.*"
+    "php": "5.4",
+    "smarty/smarty": "2.*",
+    "pear-bearsaturday.github.io/pear/Panda": "@dev",
+    "pear-pear.php.net/Cache_Lite": "@stable",
+    "pear-pear.php.net/HTML_QuickForm": "@stable",
+    "pear-pear.php.net/HTML_QuickForm_Renderer_Tableless": "@stable",
+    "pear-pear.php.net/HTTP_Request2": "@stable",
+    "pear-pear.php.net/Log": "@stable",
+    "pear-pear.php.net/Net_UserAgent_Mobile": "@stable",
+    "pear-pear.php.net/Pager": "@stable",
+    "pear-pear.php.net/Spreadsheet_Excel_Writer": "@stable",
+    "pear-pear.php.net/XML_RPC": "@stable",
+    "pear-pear.php.net/XML_Serializer": "@stable",
+    "pear-pear.php.net/I18N_UnicodeString": "@stable",
+    "pear-pear.php.net/XML_RSS": "@stable",
+    "pear-pear.php.net/MDB2": "@dev",
+    "pear-pear.php.net/MDB2_Driver_mysql": "1.5.0b4",
+    "pear-pear.php.net/MDB2_Driver_mysqli": "1.5.0b4",
+    "pear-pear.php.net/XML_RSS": "@stable",
+    "pear-pear.php.net/Var_Dump": "@stable",
+    "pear-pear.php.net/Text_Highlighter": "@stable",
+    "pear-pear.php.net/Config": "@stable",
+    "pear-pear.php.net/File": "@stable",
+    "pear-pear.php.net/Console_CommandLine": "@stable",
+    "pear-pear.php.net/Console_Color": "@stable",
+    "pear-pear.php.net/Console_Table": "@stable",
+    "pear-pear.php.net/File_SearchReplace": "@stable",
+    "pear-pear.php.net/HTML_CSS": "@stable",
+    "pear-pear.php.net/Net_Server": "@stable",
+    "pear-pear.php.net/Services_JSON": "@stable"
   },
   "extra": {
     "branch-alias": {
