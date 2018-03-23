@@ -22,6 +22,9 @@
       "url": "https://github.com/satomif/Panda"
     }
   ],
+  "include-path": [
+    "./"
+  ],
   "require": {
     "php": ">=5.4",
     "smarty/smarty": "2.*",
