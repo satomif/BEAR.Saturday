@@ -29,7 +29,7 @@
   "require": {
     "php": ">=5.4",
     "smarty/smarty": "2.*",
-    "bearsuturday/panda": "@dev",
+    "bearsuturday/panda": "dev-composer",
     "pear-pear.php.net/Cache_Lite": "@stable",
     "pear-pear.php.net/HTML_QuickForm": "@stable",
     "pear-pear.php.net/HTML_QuickForm_Renderer_Tableless": "@stable",
