@@ -3,6 +3,7 @@ if (!ereg("Firefox", getenv("HTTP_USER_AGENT"))) {
     // tweak for safari or ...
     echo '<html><head><script type="text/javascript" src="/__bear/bearshell/refresh.js"></script></head><body></body></html>';
 }
+require_once 'vendor/autoload.php';
 require_once 'App.php';
 $_SERVER['__bear'] = 1;
 $app = BEAR::get('app');

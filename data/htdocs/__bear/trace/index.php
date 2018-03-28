@@ -1,5 +1,6 @@
 <?php
 ini_set('display_errors', 1);
+require_once 'vendor/autoload.php';
 require_once 'Panda/vendors/debuglib.php';
 define('FULL_LIST_NUM', 200);
 //require_once 'App.php';

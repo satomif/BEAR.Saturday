@@ -5,6 +5,7 @@
  * /logs/page.logに保存されたページ状態のログを表示します。
  */
 
+require_once 'vendor/autoload.php';
 //ライブモードで使用するためApp.phpより先に読み込み
 //ini_set('display_errors', 0);
 require_once 'BEAR/vendors/debuglib.php';
