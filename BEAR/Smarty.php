@@ -75,6 +75,7 @@ class BEAR_Smarty extends BEAR_Factory
         $smarty->caching = $this->_config['caching'];
         $smarty->cache_lifetime = $this->_config['cache_lifetime'];
         $smarty->compile_check = false;
+        $smarty->error_reporting = isset($this->_config['error_reporting']) ? $this->_config['error_reporting'] : error_reporting();
         // デバックモード
         if ($this->_config['debug']) {
             // テンプレートキャッシュは常に再生成
