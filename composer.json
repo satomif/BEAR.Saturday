@@ -41,7 +41,6 @@
     "pear-pear.php.net/I18N_UnicodeString": "^0.3",
     "pear-pear.php.net/XML_RSS": "^1.1",
     "pear-pear.php.net/MDB2": "~2.5.0b5",
-    "pear-pear.php.net/MDB2_Driver_mysql": "~1.5.0b4",
     "pear-pear.php.net/MDB2_Driver_mysqli": "~1.5.0b4",
     "pear-pear.php.net/Var_Dump": "^1.0",
     "pear-pear.php.net/Text_Highlighter": "^0.8",
