@@ -66,8 +66,8 @@
     "doctrine/instantiator": "^1.0.5",
     "phpunit/php-invoker": "^1.1",
     "phpunit/phpunit-selenium": "^1.2",
-    "zf1s/zend-dom": "^1.12"
-
+    "zf1s/zend-dom": "^1.12",
+    "pear-pear.php.net/PHP_CodeSniffer": "^3.2"
   },
   "bin": [
     "BEAR/BEAR/bin/bear.sh"
