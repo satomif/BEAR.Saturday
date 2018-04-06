@@ -22,8 +22,8 @@
 </head>
 <body>
 <h2>BEAR Dev</h2>
-<p><a href="/__bear/Log/">Log<a> | <a href="/__bear/code/">Code</a> | <a
-	href="/__bear/info/">Info</a> | <a href="/__bear/shell/">Shell</a>
+<p><a href="/__bear/log/">Log<a> | <a href="/__bear/code/">Code</a> | <a
+	href="/__bear/info/">Info</a> | <a href="/__bear/bearshell/">Shell</a>
 <p><?php
 
 $_SERVER['bearmode'] = 0;
