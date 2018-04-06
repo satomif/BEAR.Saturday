@@ -74,5 +74,8 @@
   ],
   "config":{
     "secure-http" : false
+  },
+  "suggest": {
+    "pear-pear.php.net/PHP_CodeSniffer": "If you use __bear debug, add require-dev ^2.9"
   }
 }
