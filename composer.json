@@ -1,6 +1,6 @@
 {
   "name": "bearsaturday/bearsaturday",
-  "description": "BEAR.Saturday framework for PHP 5.2+",
+  "description": "BEAR.Saturday framework for PHP 5.2+(composer install can use from php5.4)",
   "keywords": [
     "Framework",
     "BEAR.Saturday"
@@ -57,7 +57,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-develop-2": "0.9.x-dev"
+      "dev-php7": "1.0.x-dev"
     }
   },
   "require-dev": {

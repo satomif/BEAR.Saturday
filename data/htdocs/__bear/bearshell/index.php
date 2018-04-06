@@ -1,5 +1,5 @@
 <?php
-if (!ereg("Firefox", getenv("HTTP_USER_AGENT"))) {
+if (!preg_match("/Firefox/", getenv("HTTP_USER_AGENT"))) {
     // tweak for safari or ...
     echo '<html><head><script type="text/javascript" src="/__bear/bearshell/refresh.js"></script></head><body></body></html>';
 }
